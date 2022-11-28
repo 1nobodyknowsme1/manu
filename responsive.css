@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1002px) {
+    .navbar {
+        flex-direction: column;
+        height: 480px;
+        transition: all 0.7s ease-out;
+
+    }
+    .rightNav {
+        width: 30%;
+        text-align: center;
+        padding: 0 23px;
+    }
+    #search {
+        width: 100%;
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid white;
+        border-radius: 9px;
+        /* margin-left: 10.5cm; */
+        cursor: pointer;
+    }
+    
+    .line{
+        width:33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }
+    .h-nav-resp{
+        height: 70px;
+    }
+   
+    .logo img {
+        width: 47%;
+        border: 3px solid white;
+        border-radius: 150px;
+    }
+    .burger{
+        display: block;
+
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 62vh;
+    }
+    .contact{
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .form {
+        margin: auto;
+        width: 80%;
+    }
+    .firstSection {
+        height: 58vh;
+    }
+    .paras{
+        padding: 0px;
+    }
+    
+    
+}
